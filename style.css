@@ -1,0 +1,104 @@
+        body {
+            margin: 0px;
+            background-repeat: no-repeat;
+            height: fit-content;
+            background-image: linear-gradient(330deg, rgb(171, 58, 216), rgb(138, 173, 226), rgb(63, 63, 197));
+        }
+
+        .bottom {
+            height: 100px;
+        }
+
+        p {
+            margin: 10px 100px;
+            font-size: 40px;
+            color: rgb(30, 30, 131);
+        }
+
+        #bar {
+            height: 600px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            /* border: 5px solid rgb(68, 68, 158); */
+            border-radius: 20px;
+            /* background-image: linear-gradient(330deg, rgb(171, 58, 216), rgb(138, 173, 226), rgb(63, 63, 197)); */
+            /* margin-bottom: 100px; */
+
+        }
+
+        .img {
+            height: 70%;
+            object-fit: contain;
+            margin-left: 30px;
+            border-radius: 30px;
+        }
+
+        iframe {
+            height: 100%;
+            width: 100%;
+            cursor: pointer;
+            border-radius: 30px;
+            font-size: 30px;
+            text-align: center;
+            background-color: rgb(72, 138, 155);
+            transition: all 0.3s ease;
+        }
+
+        .itm {
+            height: 150px;
+            width: 50%;
+            max-width: 95%;
+            cursor: pointer;
+            border: 15px solid rgb(75, 9, 119);
+            border-radius: 50px;
+            text-align: center;
+            background-color: rgb(72, 138, 155);
+            transition: all 0.3s ease;
+            margin-bottom: 90px;
+            margin-top: 40px;
+        }
+
+        .itm.expanded {
+            height: 550px;
+            width: 100%;
+        }
+
+        @media screen and (max-width: 800px) {
+            p {
+                font-size: 20px;
+                color: rgb(30, 30, 131);
+            }
+
+            #bar {
+                height: 600px;
+                display: flex;
+                background-color: cornflowerblue;
+                /* border: 5px solid rgb(72, 119, 207); */
+                /* background-image: linear-gradient(330deg, rgb(171, 58, 216), rgb(138, 173, 226), rgb(63, 63, 197)); */
+                margin: 0px;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .img {
+                object-fit: contain;
+                border-radius: 40px;
+            }
+
+            img {
+                /* margin-left: 30px ; */
+                border-radius: 40px;
+                height: 30%;
+                width: 67%;
+            }
+        }
+
+        .dec {
+            margin: 10px;
+            /* padding: 10px ; */
+            font-size: 25px;
+            color: rgb(30, 3, 43);
+
+
+        }
